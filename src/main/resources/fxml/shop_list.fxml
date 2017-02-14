@@ -16,7 +16,7 @@
                <font>
                   <Font size="18.0" />
                </font></Label>
-            <Label prefHeight="27.0" prefWidth="225.0" text="Catégorie actuelle">
+            <Label prefHeight="27.0" prefWidth="225.0" text="Tous les magasins">
                <font>
                   <Font size="18.0" />
                </font>
@@ -30,6 +30,12 @@
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="200.0" vgrow="SOMETIMES" />
         </rowConstraints>
+          <children>
+              <fx:include source="/fxml/shop.fxml" GridPane.rowIndex="0"/>
+              <fx:include source="/fxml/shop.fxml" GridPane.rowIndex="1"/>
+              <fx:include source="/fxml/shop.fxml" GridPane.rowIndex="2"/>
+              <fx:include source="/fxml/shop.fxml" GridPane.rowIndex="3"/>
+          </children>
       </GridPane>
    </children>
 </Pane>
