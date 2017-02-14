@@ -9,18 +9,18 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
    <right>
       <AnchorPane prefHeight="300.0" prefWidth="36.0" BorderPane.alignment="CENTER">
          <children>
-            <Button contentDisplay="CENTER" layoutY="130.0" mnemonicParsing="false" text="&gt;" />
+            <Button contentDisplay="CENTER" layoutX="2.0" layoutY="152.0" mnemonicParsing="false" text="&gt;" />
          </children>
       </AnchorPane>
    </right>
    <left>
-      <AnchorPane prefHeight="300.0" prefWidth="36.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="334.0" prefWidth="36.0" BorderPane.alignment="CENTER">
          <children>
-            <Button contentDisplay="CENTER" layoutX="9.0" layoutY="130.0" mnemonicParsing="false" text="&lt;" />
+            <Button contentDisplay="CENTER" layoutX="10.0" layoutY="150.0" mnemonicParsing="false" text="&lt;" />
          </children>
       </AnchorPane>
    </left>
@@ -29,7 +29,7 @@
          <children>
             <HBox layoutX="193.0" layoutY="4.0">
                <children>
-                  <RadioButton mnemonicParsing="false">
+                  <RadioButton mnemonicParsing="false" selected="true">
                      <toggleGroup>
                         <ToggleGroup fx:id="group" />
                      </toggleGroup>
@@ -44,7 +44,7 @@
    <center>
       <ImageView cache="true" fitHeight="255.0" fitWidth="315.0" pickOnBounds="true" BorderPane.alignment="CENTER">
          <image>
-            <Image url="@Pub_Fotolia_83635742_S.jpg" />
+            <Image url="/images/Produits.png" />
          </image>
       </ImageView>
    </center>

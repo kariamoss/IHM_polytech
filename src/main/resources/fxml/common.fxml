@@ -18,8 +18,12 @@
           <Tab fx:id="tab1" text="Catégories de magasin">
               <fx:include source="/fxml/shop_category.fxml"/>
           </Tab>
-            <Tab fx:id="tab2" text="Tous les magasins" />
-            <Tab fx:id="tab3" text="Infos et localisation" />
+            <Tab fx:id="tab2" text="Tous les magasins">
+                <fx:include source="/fxml/shop_list.fxml"/>
+            </Tab>
+            <Tab fx:id="tab3" text="Infos et localisation">
+                <fx:include source="/fxml/infosSup.fxml"/>
+            </Tab>
         </tabs>
       </TabPane>
    </center>

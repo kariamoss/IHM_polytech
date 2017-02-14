@@ -26,7 +26,7 @@ public class MainApp extends Application {
         Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(fxmlFile));
 
         log.debug("Showing JFX scene");
-        Scene scene = new Scene(rootNode, 1280, 620);
+        Scene scene = new Scene(rootNode, 1280, 750);
 
         stage.setTitle("Hello JavaFX and Maven");
         stage.setScene(scene);
