@@ -13,7 +13,7 @@
    <center>
       <ImageView cache="true" fitHeight="280.0" fitWidth="640.0" pickOnBounds="true" BorderPane.alignment="CENTER">
          <image>
-            <Image url="@Pub_Fotolia_83635742_S.jpg" />
+            <Image url="/images/Evenements.png" />
          </image>
       </ImageView>
    </center>

@@ -22,30 +22,30 @@
          <children>
             <ImageView fitHeight="198.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Sport.png" />
+                  <Image url="/images/Sport.png" />
                </image></ImageView>
             <ImageView fitHeight="198.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
                <image>
-                  <Image url="@Livres.png" />
+                  <Image url="/images/Livres.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
                <image>
-                  <Image url="@IT.png" />
+                  <Image url="/images/IT.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
                <image>
-                  <Image url="@bijoux.png" />
+                  <Image url="/images/Bijoux.png" />
                </image></ImageView>
             <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <image>
-                  <Image url="@Bricolage.png" />
+                  <Image url="/images/Bricolage.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <image>
-                  <Image url="@vetement.png" />
+                  <Image url="/images/Vetement.png" />
                </image></ImageView>
          </children>
       </GridPane>

@@ -22,7 +22,7 @@
          <children>
             <ImageView fitHeight="254.0" fitWidth="469.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@_82931280_82931279.jpg" />
+                  <Image url="/images/Map.png" />
                </image>
             </ImageView>
          </children>

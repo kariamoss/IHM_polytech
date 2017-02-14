@@ -12,14 +12,14 @@
    <center>
       <TabPane fx:id="homeTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
         <tabs>
-          <Tab fx:id="tab0" text="To Be or To Have/Accueil">
+          <Tab fx:id="tab0" text="Accueil">
               <fx:include source="/fxml/home.fxml"/>
           </Tab>
-          <Tab fx:id="tab1" text="Produits" />
-            <Tab fx:id="tab2" text="Mon magasin" />
-            <Tab fx:id="tab3" text="Statistiques" />
-            <Tab fx:id="tab4" text="Catégories de magasin" />
-            <Tab fx:id="tab5" text="Infos" />
+          <Tab fx:id="tab1" text="Catégories de magasin">
+              <fx:include source="/fxml/shop_category.fxml"/>
+          </Tab>
+            <Tab fx:id="tab2" text="Tous les magasins" />
+            <Tab fx:id="tab3" text="Infos et localisation" />
         </tabs>
       </TabPane>
    </center>
