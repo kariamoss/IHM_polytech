@@ -28,7 +28,7 @@
                   </Label>
                </children>
             </HBox>
-            <GridPane layoutX="290.0" layoutY="74.0">
+            <GridPane layoutX="290.0" layoutY="74.0" gridLinesVisible="true">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="700.0" />
               </columnConstraints>
