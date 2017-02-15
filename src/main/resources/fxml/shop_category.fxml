@@ -1,53 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <GridPane layoutX="14.0" layoutY="14.0" prefHeight="594.0" prefWidth="1254.0">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
+
+<ScrollPane hbarPolicy="NEVER" prefHeight="620.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1280.0">
          <children>
-            <ImageView fitHeight="198.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="/images/Sport.png" />
-               </image></ImageView>
-            <ImageView fitHeight="198.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
-               <image>
-                  <Image url="/images/Livres.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
-               <image>
-                  <Image url="/images/IT.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
-               <image>
-                  <Image url="/images/Bijoux.png" />
-               </image></ImageView>
-            <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <image>
-                  <Image url="/images/Bricolage.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <image>
-                  <Image url="/images/Vetement.png" />
-               </image></ImageView>
+            <GridPane layoutX="14.0" layoutY="14.0" prefWidth="1254.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0" prefWidth="627.0">
+                     <children>
+                        <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/black.png" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_LEFT" layoutX="10.0" prefHeight="188.0" prefWidth="607.0">
+                           <children>
+                              <Label alignment="TOP_RIGHT" prefWidth="607.0" textFill="WHITE">
+                                 <font>
+                                    <Font name="Lucida Sans Regular" size="64.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="TOP_RIGHT" prefWidth="607.0" text="Tous nos magasins" textFill="WHITE">
+                                 <font>
+                                    <Font name="Lucida Sans Regular" size="64.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0" prefWidth="627.0" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/bijouxnotext.png" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_LEFT" layoutX="10.0" prefHeight="188.0" prefWidth="607.0">
+                           <children>
+                              <Label alignment="TOP_RIGHT" prefWidth="607.0" textFill="WHITE">
+                                 <font>
+                                    <Font name="Lucida Sans Regular" size="64.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="TOP_RIGHT" prefWidth="607.0" text="Montres &amp; Bijoux" textFill="WHITE">
+                                 <font>
+                                    <Font name="Lucida Sans Regular" size="64.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0" prefWidth="627.0" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="198.0" fitWidth="627.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Bricolagenotext.png" />
+                           </image>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_LEFT" layoutX="10.0" prefHeight="188.0" prefWidth="607.0">
+                           <children>
+                              <Label alignment="TOP_RIGHT" prefWidth="607.0" textFill="WHITE">
+                                 <font>
+                                    <Font name="Lucida Sans Regular" size="64.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="TOP_RIGHT" prefWidth="607.0" text="Maison &amp; Bricolage" textFill="WHITE">
+                                 <font>
+                                    <Font name="Lucida Sans Regular" size="64.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
          </children>
-      </GridPane>
-   </children>
-</Pane>
+      </Pane>
+   </content>
+</ScrollPane>
