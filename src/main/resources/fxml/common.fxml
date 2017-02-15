@@ -45,7 +45,7 @@
                         <ToggleGroup fx:id="grouplang" />
                      </toggleGroup>
                   </ToggleButton>
-                  <ToggleButton mnemonicParsing="false" text="FR" toggleGroup="$grouplang" />
+                  <ToggleButton mnemonicParsing="false" text="FR" toggleGroup="$grouplang" selected="true"/>
                </children>
             </HBox>
          </children>
