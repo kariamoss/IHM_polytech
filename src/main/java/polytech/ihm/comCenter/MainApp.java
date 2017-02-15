@@ -27,8 +27,9 @@ public class MainApp extends Application {
 
         log.debug("Showing JFX scene");
         Scene scene = new Scene(rootNode, 1280, 750);
+        scene.getStylesheets().add(getClass().getResource("/styles/styles.css").toExternalForm());
 
-        stage.setTitle("Hello JavaFX and Maven");
+        stage.setTitle("Centre commercial");
         stage.setScene(scene);
         stage.show();
     }
